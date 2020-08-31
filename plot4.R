@@ -9,7 +9,7 @@ if(!exists("requiredPowConsData")){
       rm(pc)
 }
 
-png("figure/plot4.png", width = 504, height = 504)
+png("plot4.png", width = 504, height = 504)
 par(mfrow = c(2, 2), bg = NA)
 
 #Plotting Graphs 1

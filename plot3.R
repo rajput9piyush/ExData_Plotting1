@@ -8,7 +8,7 @@ if(!exists("requiredPowConsData")){
                               c(ymd("2007-02-01", ymd("2007-02-02"))), ])
       rm(pc)
 }
-png("figure/plot3.png", width = 504, height = 504)
+png("plot3.png", width = 504, height = 504)
 par(bg = NA)
 plot(requiredPowConsData$Sub_metering_1, type = "l", 
      ylab = "Energry sub metering", xlab = "", xaxt = "n", col = "black")

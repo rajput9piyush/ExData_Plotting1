@@ -8,7 +8,7 @@ if(!exists("requiredPowConsData")){
                               c(ymd("2007-02-01", ymd("2007-02-02"))), ])
       rm(pc)
 }
-png("figure/plot2.png", width = 504, height = 504)
+png("plot2.png", width = 504, height = 504)
 par(bg = NA)
 plot(requiredPowConsData$Global_active_power, type = "l", 
      ylab = "Global Active Power (kiloWatts)", xlab = "", xaxt = "n")
